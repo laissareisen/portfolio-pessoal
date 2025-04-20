@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Pessoal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Cabeçalho com menu de navegação fixo -->
+    <header>
+        <nav>
+            <ul class="menu">
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Seção Sobre Mim -->
+        <section id="sobre" class="secao">
+            <h2>Sobre Mim</h2>
+            <div class="flex-container">
+                <!-- Foto de perfil -->
+                <img src="imgs/foto-perfil.jpg" alt="Foto de perfil garota loira de face alegre" class="imagem">
+                <div>
+                    <h3>Olá Mundo!</h3>
+                    <!-- Breve apresentação pessoal -->
+                    <p> Meu nome é <strong>Laíssa Reisen</strong>, e sou uma desenvolvedora web apaixonado por design e
+                        inovação
+                        tecnológica. No meu tempo livre, gosto de explorar trilhas, fotografar paisagens e aprender
+                        sobre inteligência
+                        artificial.
+                    <p>Minha jornada na tecnologia começou com curiosidade e se transformou em uma carreira emocionante.
+                        Minha filosofia: combinar criatividade com funcionalidade em todos os projetos. Acredito que a
+                        tecnologia não apenas resolve problemas, mas também tem o poder de transformar
+                        vidas. Por isso, dedico meu trabalho ao desenvolvimento de soluções digitais que sejam
+                        intuitivas, acessíveis e inovadoras. </p>
+                    <p>Tenho uma abordagem detalhista e centrada no usuário, o que me permite criar projetos
+                        personalizados que atendem às necessidades específicas de cada cliente ou público-alvo.</p>
+                    <p>Além da programação, sou fascinada por storytelling visual. Adoro incorporar elementos de design
+                        que contam histórias e evocam emoções, tornando cada interface única e memorável. </p>
+                    <p>Busco constantemente referências em arte, cinema e literatura para enriquecer meus projetos e criar experiências digitais envolventes. Acredito que a criatividade é um diferencial essencial no desenvolvimento web.</p>
+                    <p>Estou sempre em busca de novos desafios e oportunidades para aprender e crescer. Se você está
+                        procurando alguém para ajudar a transformar suas ideias em realidade, entre em contato!</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Formação Acadêmica e Certificações -->
+        <section id="formacao" class="secao">
+            <h2>Formação</h2>
+            <div class="flex-container">
+                <ul>
+                    <li class="primeiro">
+                        <h3>Graduação:</h3>
+                        <ul>
+                            <li class="graduacao">
+                                <span>2019- 2021</span>
+                                <p><strong>Tecnico em Desenvolvimento de Sistemas</strong></p>
+                                <ul>
+                                    <li class="secundario">Instituto Federal de Educação, Ciência e Tecnologia do
+                                        Amazonas –
+                                        Campus
+                                        Presidente Figueiredo</li>
+                                </ul>
+                            </li>
+                            <li class="graduacao">
+                                <span>2023 – Presente</span>
+                                <p><strong>Graduação em Análise e Desenvolvimento de Sistemas</strong></p>
+                                <ul>
+                                    <li class="secundario">UNINTER (Centro Universitário Internacional)</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="primeiro">
+                        <h3>Certificações:</h3>
+                        <ul>
+                            <li class="secundario">Certificação em Desenvolvimento Web Avançado</li>
+                            <li class="secundario">Certificado em UX Design</li>
+                        </ul>
+                    </li>
+
+                    <li class="primeiro">
+                        <h3>Idiomas:</h3>
+                        <ul>
+                            <li class="secundario">Português: Nativo</li>
+                            <li class="secundario">Inglês: Fluente</li>
+                            <li class="secundario">Espanhol: Avançado</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Seção Portfólio com projetos -->
+        <section id="portfolio" class="secao">
+            <h2>Portfólio</h2>
+            <div class="flex-container">
+                <!-- Projeto 1 -->
+                <article>
+                    <img src="imgs/projeto1.png" alt="Projeto Portflow" class="imagem-pt">
+                    <h3><a href="https://reisenll.github.io/Portflow/">Portflow</a></h3>
+                    <p>Portflow é um projeto de portfólio minimalista e responsivo, projetado para destacar habilidades
+                        e projetos de forma elegante e funcional.</p>
+                </article>
+                <!-- Projeto 2 -->
+                <article>
+                    <img src="imgs/projeto2.png" alt="Projeto Museu Nacional" class="imagem-pt">
+                    <h3><a href="https://reisenll.github.io/Museu-Nacional/">Museu Nacional</a></h3>
+                    <p>Site institucional desenvolvido para apresentar a história, exposições e informações do Museu
+                        Nacional, com navegação intuitiva e visual atrativo.</p>
+                </article>
+                <!-- Projeto 3 -->
+                <article>
+                    <img src="imgs/projeto3.png" alt="Projeto Finans" class="imagem-pt">
+                    <h3><a href="https://reisenll.github.io/Finans/">Finans</a></h3>
+                    <p>Finans é uma aplicação web para controle financeiro pessoal, permitindo o gerenciamento de
+                        receitas, despesas e geração de relatórios de forma simples e eficiente.</p>
+                </article>
+        </section>
+        <!-- Seção de Contato com formulário -->
+        <section id="contato" class="secao">
+            <h2>Contato</h2>
+            <div class="flex-container">
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé do site -->
+    <footer>
+        <p>&copy; 2025 Laíssa Reisen - Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+</html>
